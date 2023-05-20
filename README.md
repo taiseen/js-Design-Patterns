@@ -18,3 +18,8 @@
 
 ### React Design Pattern
 * [Coding With Mr.M](https://youtu.be/Luw90ESdSwI)
+
+
+### Reading Doc...
+
+* https://refactoring.guru/design-patterns
