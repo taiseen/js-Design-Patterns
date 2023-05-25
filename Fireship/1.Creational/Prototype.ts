@@ -38,9 +38,9 @@ console.log(boy.getSleep());
 
 
 
-Array.prototype.myFun = function () {   // don't do this...
-    console.log('🔴 Prototype...');
-}
+// Array.prototype.myFun = function () {   // don't do this...
+//     console.log('🔴 Prototype...');
+// }
 
-const numArr = [1, 2, 3];
-numArr.myFun();                         // don't do this...
+// const numArr = [1, 2, 3];
+// numArr.myFun();                         // don't do this...

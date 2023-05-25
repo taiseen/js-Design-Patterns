@@ -1,0 +1,3 @@
+Observer Pattern
+when one part of our application changes 
+other parts need to be updated...
