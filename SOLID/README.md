@@ -14,3 +14,5 @@ maintainable and
 extensible, 
 and it can make it easier for developers to work collaboratively on a codebase.
 ```
+
+* Learning from >>> [FreeCodeCamp](https://www.freecodecamp.org/news/solid-principles-for-better-software-design)
