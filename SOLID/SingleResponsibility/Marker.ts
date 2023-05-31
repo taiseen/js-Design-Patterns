@@ -2,7 +2,7 @@
 
 // Single Responsibility Principle - SRP
 
-class Marker {
+export class Marker {
     constructor(
         public name: string,
         public color: string,
@@ -14,6 +14,7 @@ class Marker {
 // #######################################################
 // #######################################################
 
+/* 
 // class Invoice {
 
 //     constructor(private marker: Marker, private quantity: number) { }
@@ -30,7 +31,7 @@ class Marker {
 //         // save to database implementation
 //     }
 // }
-
+*/
 
 // #######################################################
 // #######################################################
@@ -45,9 +46,9 @@ Invoice, InvoiceDao, and InvoicePrinter.
 The Invoice class is responsible only for calculating the total amount, 
 and the printing and saving responsibilities have been delegated to separate classes. 
 This makes the code more modular, easier to understand, and less prone to errors.
-*/ 
+*/
 
-class Invoice {
+export class Invoice {
 
     constructor(public marker: Marker, public quantity: number) { }
 
@@ -97,16 +98,16 @@ class InvoicePrinter {
 // #######################################################
 // #######################################################
 
-const pen = new Marker('BollPen', 'Black', 30);
+// const pen = new Marker('BollPen', 'Black', 30);
 
 
-const invoice = new Invoice(pen, 2);
-invoice.calculateTotal();
+// const invoice = new Invoice(pen, 2);
+// invoice.calculateTotal();
 
 
-const invoicePrint = new InvoicePrinter(invoice);
-invoicePrint.printInvoice();
+// const invoicePrint = new InvoicePrinter(invoice);
+// invoicePrint.printInvoice();
 
 
-const invoiceSave = new InvoiceSave(invoice);
-invoiceSave.saveToDb();
+// const invoiceSave = new InvoiceSave(invoice);
+// invoiceSave.saveToDb();
